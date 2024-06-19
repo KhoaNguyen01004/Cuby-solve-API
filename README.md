@@ -26,14 +26,14 @@ pip install -r requirements.txt
 ```
 
 #### 3. Run the application
-##### In local environment
+## In local environment
 ```bash
 python run.py
 ```
 
 The application should now be running on `http://127.0.0.1:5000/`.
 
-##### Dockerizing and Running Your Application
+## Dockerizing and Running Your Application
 Follow the steps in the [Dockerizing and Running Your Application](dockerCommands.md) guide to Dockerize and run your application.
 
 ## Usage
