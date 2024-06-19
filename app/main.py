@@ -7,6 +7,6 @@ from app.models import solve_rubiks_cube
 def solve(cubeString):
     try:
         solution = solve_rubiks_cube(cubeString)
-        return jsonify({'solution': solution})
+        return solution
     except ValueError:
-        return jsonify({'error': 'Invalid cube string'}), 400
+        return 'Invalid cube string'

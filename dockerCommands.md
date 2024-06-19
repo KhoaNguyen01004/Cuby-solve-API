@@ -9,14 +9,14 @@ This guide will walk you through the steps to Dockerize and run your Python Flas
 ### 1. Build the Docker Image
 To build the Docker image, navigate to the directory containing your Dockerfile and run the following command:
 ```bash
-docker build --tag Cube-solve-API .
+docker build --tag cube-solve-api .
 ```
 This command builds a Docker image using the Dockerfile in the current directory and tags it as Cube-solve-API.
 
 ### 2. Run the Docker Container
 After the image has been built, you can run it as a container with the following command:
 ```bash
-docker run -p 5000:5000 Cube-solve-API
+docker run -p 5000:5000 cube-solve-api
 ```
 This command runs the Docker container and maps port 5000 inside the container to port 5000 on your host machine.  
 
