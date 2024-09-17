@@ -1,5 +1,5 @@
 # Cuby-solve-API
-Cube-solve-API is a Python-based web application that provides an API to solve a Rubik's cube. This project is built using the Flask framework and leverages the Kociemba algorithm to solve the Rubik's cube.  
+Cuby-solve-API is a Python-based web application that provides an API to solve a Rubik's cube. This project is built using the Flask framework and leverages the Kociemba algorithm to solve the Rubik's cube.  
 
 
 ## Features
